@@ -530,4 +530,4 @@ if [ "$CONFIG_WITHOUT_KERNEL" != "y" ] ; then
 make dep
 fi
 echo --------------------------MAKE-ALL--------------------------------
-make
+make -j
